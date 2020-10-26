@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/micro/mdns"
+	"github.com/divisionone/mdns"
 )
 
 func main() {

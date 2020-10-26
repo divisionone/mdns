@@ -1,4 +1,4 @@
-module github.com/micro/mdns
+module github.com/divisionone/mdns
 
 require (
 	github.com/miekg/dns v1.1.3

@@ -1,4 +1,4 @@
-# MDNS [![GoDoc](https://godoc.org/github.com/micro/mdns?status.svg)](https://godoc.org/github.com/micro/mdns)
+# MDNS [![GoDoc](https://godoc.org/github.com/divisionone/mdns?status.svg)](https://godoc.org/github.com/divisionone/mdns)
 
 MDNS is a simple mdns client/server library by Hashicorp.
 
@@ -21,7 +21,7 @@ Using the library is very simple, here is an example of publishing a service ent
 package main
 
 import (
-	"github.com/micro/mdns"
+	"github.com/divisionone/mdns"
 	"os"
 )
 
@@ -46,7 +46,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/micro/mdns"
+	"github.com/divisionone/mdns"
 )
 
 func main() {
