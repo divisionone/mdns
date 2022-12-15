@@ -1,8 +1,15 @@
 module github.com/divisionone/mdns
 
+go 1.19
+
 require (
-	github.com/miekg/dns v1.1.3
-	golang.org/x/crypto v0.0.0-20190130090550-b01c7a725664 // indirect
-	golang.org/x/net v0.0.0-20190125091013-d26f9f9a57f3
-	golang.org/x/sys v0.0.0-20190129075346-302c3dd5f1cc // indirect
+	github.com/miekg/dns v1.1.50
+	golang.org/x/net v0.3.0
+)
+
+require (
+	golang.org/x/mod v0.4.2 // indirect
+	golang.org/x/sys v0.3.0 // indirect
+	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
+	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 )
